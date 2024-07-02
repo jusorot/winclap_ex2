@@ -10,15 +10,11 @@ The objective is to determine the last number she will name before falling aslee
 
 ### Project Structure
 
-- exercise2/
+- winclap_ex2/
   - bleatrix_trotter.py
   - c-input.in
   - test_bleatrix_trotter.py
-  - c-input_test.in
-  - venv/
-  
-  
-    
+  - c-input_test.in    
 
 where:
 
@@ -30,23 +26,17 @@ test_bleatrix_trotter.py: Unit tests
 
 c-input_test.in: Input file for unit tests
 
-venv/: Virtual environment folder
 
 ### How to Run
 
-1. Activate the virtual environment:
-    ```
-    source venv/bin/activate  # On Linux/Mac
-    venv\Scripts\activate     # On Windows
-    ```
 
-2. Run the `bleatrix_trotter` script:
+1. Run the `bleatrix_trotter` script:
     ```
     python .\bleatrix_trotter.py <your_input_file>
     ```
     If no input file is specified, it defaults to c-input.in 
 
-3. Run the tests:
+2. Run the tests:
     ```
     python .\test_bleatrix_trotter.py
     ```
